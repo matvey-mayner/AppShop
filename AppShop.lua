@@ -18,7 +18,6 @@ local function handleCommand(command)
   elseif command == "3" then
     os.execute("pastebin get gGHCE9MK Pong.lua")
   elseif command == "4" then
-    break
   return
   else
     message("Invalid command.")
